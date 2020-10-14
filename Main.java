@@ -27,8 +27,8 @@ class Main {
     
     }else if(confirmation == 0 ){
     System.out.println("Have Fun Watching!");
-    System.out,println("Would like food ?");
-   }
+    System.out.println("Would like food ? 1 for yes 2 for no.");
+   }if(food == 1)
     
 
  }
