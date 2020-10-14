@@ -28,7 +28,16 @@ class Main {
     }else if(confirmation == 0 ){
     System.out.println("Have Fun Watching!");
     System.out.println("Would like food ? 1 for yes 2 for no.");
-   }if(food == 1)
+   int food = scan.nextInt();
+   if(food == 1){
+     System.out.println("Would you like a glizzy or Popcorn?");
+     System.out.println("1 for a glizzy or 2 for a bowl of popcorn ?");
+    }else if(food== 2){
+     System.out.println(" Alright, have fun !"); 
+    }
+    
+
+   }
     
 
  }
